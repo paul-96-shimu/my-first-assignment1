@@ -4,6 +4,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
+    background: #F5F5F5;
 }
 
 /* common style */
@@ -30,11 +31,6 @@
     margin-bottom: 24px;
 }
 
-.header-wrraper {
-    background: #F5F5F5;
-    width: 100%;
-    height: 100%;
-}
 
 .header-wrraper .navber {
     display: flex;
@@ -48,8 +44,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1160px;
-    padding: 60px 100px;
+    width: 1080px;
+    padding: 80px 100px;
     margin: 0 auto;
     gap: 24px;
 }
@@ -89,76 +85,33 @@
     font-size: 18px;
 }
 
+.btn-primary:hover {
+    background-color: #FFC239;
+}
+
 /* start of pillars bangladesh */
 main {
 
-    width: 80%;
-    text-align: center;
-    padding: 30px;
-    margin-top: 30px;
-    background: #F5F5F5;
+    width: 1280px;
+
+    padding: 60px 100px;
     margin: 0 auto;
-
-    padding: 20px;
-    margin-top: 30px;
-
 }
 
-/* 
- .container .box-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 32px;
-    margin: 0 auto;
 
-}
-
-.container .Innovation {
-
-    display: flex;
-    width: 254px;
-    height: 196px; 
-    padding: 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-
-    background: #FFF;
-
-
-}
-
-.container .Innovation h2 {
-    color: rgba(14, 14, 14, 0.80);
-
-    font-family: "Fira Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.container .Innovation p {
-    color: rgba(14, 14, 14, 0.70);
-
-    font-family: "Fira Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}  */
 
 /* start vision of future */
+
 .card-section {
     padding: 0 auto;
 }
 
 .vision-of-future .card-container {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+
     margin-top: 30px;
+    gap: 24px;
 
 }
 
@@ -271,6 +224,24 @@ main {
     margin-top: 15px;
 }
 
+.learn-more1:hover {
+    background-color: aqua;
+}
+
+.learn-more2:hover {
+    background-color: aqua;
+}
+
+.learn-more3:hover {
+    background-color: aqua;
+}
+
+.opation {
+    background: #FFF;
+    border-radius: 18px;
+
+}
+
 .bangladesh-bd {
     display: flex;
     padding: 48px 24px;
@@ -279,14 +250,34 @@ main {
     gap: 24px;
     flex: 1 0 0;
     background-image: url("../assets/quote-bg.png");
-
     background-repeat: no-repeat;
     margin-top: 32px;
-    border-radius: 16px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 18px;
+    border: 2px solid rgba(14, 14, 14, 0.15);
 
-    background: #FFF;
-    margin-top: 32px;
+
+
+
+}
+
+.bangladesh-bd h1 {
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.bangladesh-bd p {
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 /* recent news part */
@@ -298,7 +289,8 @@ main {
     margin: 0 auto;
     margin-top: 50px;
     align-items: center;
-    box-shadow: 4px 4px 8px gray;
+    box-shadow: 4px 4px 8px white;
+    background-color: #FFF;
     text-align: justify;
     gap: 32px;
     border-radius: 24px;
@@ -313,10 +305,11 @@ main {
     margin: 0 auto;
     margin-top: 50px;
     align-items: center;
-    box-shadow: 4px 4px 8px gray;
+    box-shadow: 4px 4px 8px white;
     text-align: justify;
     gap: 32px;
     border-radius: 24px;
+    background-color: #FFF;
 
 }
 
@@ -346,6 +339,13 @@ main {
 .box1-left img {
     width: 408px;
     height: 306px;
+    border-radius: 24px;
+}
+
+.box2-right img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
 }
 
 /* donate section start */
@@ -379,7 +379,7 @@ main {
     margin-bottom: 32px;
 }
 
-.donate-money h1 {
+.donate-money button {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 
@@ -394,7 +394,7 @@ main {
     padding: 40px;
 }
 
-.money {
+.donate-money button.money {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 
@@ -413,18 +413,32 @@ main {
 }
 
 .donate input[type="text"] {
-    /* display: flex; */
+
     width: 1032px;
     padding: 20px 40px;
-    /* flex-direction: column; */
-    /* align-items: center; */
+
     justify-content: center;
     gap: 24px;
-    /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 
     background: #FFF;
     margin-top: 32px;
     text-align: center;
+}
+
+.btn {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.Done-Now:hover {
+    background-color: #FFC239;
 }
 
 .Done-Now {
@@ -441,4 +455,134 @@ main {
 
     background: #006A50;
     padding: 17px 34px;
+
+}
+
+/* star subscribe section */
+.newsletter {
+    border-radius: 24px;
+    background: #C6E4D6;
+    display: flex;
+    width: 1280px;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px
+}
+
+.newsletter h1 {
+    color: #0E0E0E;
+
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.newsletter p {
+    color: rgba(14, 14, 14, 0.70);
+
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter h3 {
+    color: rgba(14, 14, 14, 0.70);
+
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.subscribe-title .input-text {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.subscribe-title .input-text input {
+    padding: 20px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+
+    width: 600px;
+    padding: 18px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+
+
+
+}
+
+.subscribe-title .Subscribe {
+    background-color: #006A50;
+    padding: 17px 40px;
+    border-radius: 0px 8px 8px 0px;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-right: 20px;
+
+}
+
+/* start footer part */
+footer {
+    background: #FFF;
+
+    display: flex;
+    padding: 50px 160px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+
+}
+
+.footer-section-title {
+    color: #0E0E0E;
+
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+
+}
+
+.social-icon {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 23px;
+}
+
+.border {
+    width: 1122px;
+    height: 1px;
+    background: rgba(14, 14, 14, 0.10);
+
+
+}
+
+.social-icon a img {
+    width: 24px;
+    height: 24px;
 }
