@@ -104,8 +104,8 @@ main {
 
 }
 
-
-.container .box-container {
+/* 
+ .container .box-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 32px;
@@ -117,7 +117,7 @@ main {
 
     display: flex;
     width: 254px;
-    /* height: 196px; */
+    height: 196px; 
     padding: 24px;
     flex-direction: column;
     align-items: flex-start;
@@ -148,9 +148,13 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-}
+}  */
 
 /* start vision of future */
+.card-section {
+    padding: 0 auto;
+}
+
 .vision-of-future .card-container {
     display: flex;
     justify-content: space-evenly;
@@ -169,6 +173,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 20px;
 
 }
 
@@ -183,6 +188,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 20px;
 }
 
 .vision-of-future .card-box1 {
@@ -280,34 +286,66 @@ main {
     border: 1px solid rgba(14, 14, 14, 0.15);
 
     background: #FFF;
+    margin-top: 32px;
 }
 
 /* recent news part */
 .bangladesh-launches .box1 {
     display: flex;
-    justify-content: space-around;
-    width: 70%;
-
+    justify-content: space-between;
+    width: 1184;
+    padding: 48px;
     margin: 0 auto;
     margin-top: 50px;
     align-items: center;
     box-shadow: 4px 4px 8px gray;
     text-align: justify;
+    gap: 32px;
+    border-radius: 24px;
 
 }
 
 .bangladesh-launches .box2 {
     display: flex;
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-
+    justify-content: space-between;
+    width: 1184;
+    padding: 48px;
     margin: 0 auto;
     margin-top: 50px;
     align-items: center;
     box-shadow: 4px 4px 8px gray;
     text-align: justify;
+    gap: 32px;
+    border-radius: 24px;
 
+}
+
+
+
+.bangladesh-launches .news-satellite h1 {
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.bangladesh-launches .news-satellite p {
+    color: rgba(14, 14, 14, 0.70);
+
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.box1-left img {
+    width: 408px;
+    height: 306px;
 }
 
 /* donate section start */
