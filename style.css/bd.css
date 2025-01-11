@@ -98,7 +98,61 @@ main {
     margin: 0 auto;
 }
 
+/* Pillars of "Bangladesh 2.0" */
+.pillars h1 {
+    color: #0E0E0E;
 
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.bangladesh-2 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.common-box {
+    display: flex;
+    width: 302px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+    background: #FFF;
+}
+
+.common-box h3 {
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.common-box p {
+    color: rgba(14, 14, 14, 0.70);
+
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.common-box img {
+    width: 64px;
+    height: 64px;
+}
 
 /* start vision of future */
 
@@ -109,7 +163,6 @@ main {
 .vision-of-future .card-container {
     display: flex;
     align-items: center;
-
     margin-top: 30px;
     gap: 24px;
 
@@ -127,6 +180,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 20px;
+    margin-top: 80px;
 
 }
 
@@ -146,8 +200,8 @@ main {
 
 .vision-of-future .card-box1 {
     text-align: justify;
-    width: 307px;
-    height: 221px;
+    width: 347px;
+
     border-radius: 16px;
     padding: 20px;
     border: 0px solid #5490F5;
@@ -156,8 +210,8 @@ main {
 
 .vision-of-future .card-box2 {
     text-align: justify;
-    width: 307px;
-    height: 221px;
+    width: 347px;
+
     border-radius: 16px;
     padding: 20px;
     border: 0px solid #09A15C;
@@ -168,8 +222,8 @@ main {
 
 .vision-of-future .card-box3 {
     text-align: justify;
-    width: 307px;
-    height: 221px;
+    width: 347px;
+
     border-radius: 16px;
     padding: 20px;
     border: 0px solid #FFC239;
@@ -297,6 +351,24 @@ main {
 
 }
 
+.news-satellite img {
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+
+}
+
+.span {
+    color: rgba(14, 14, 14, 0.70);
+
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
 .bangladesh-launches .box2 {
     display: flex;
     justify-content: space-between;
@@ -334,6 +406,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 12px;
 }
 
 .box1-left img {
@@ -412,7 +485,15 @@ main {
     padding: 40px;
 }
 
+
 .donate input[type="text"] {
+    color: rgba(14, 14, 14, 0.30);
+
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
     width: 1032px;
     padding: 20px 40px;
@@ -463,11 +544,11 @@ main {
     border-radius: 24px;
     background: #C6E4D6;
     display: flex;
-    width: 1280px;
+
     padding: 80px 100px;
     justify-content: center;
     align-items: center;
-    gap: 64px
+
 }
 
 .newsletter h1 {
@@ -506,15 +587,14 @@ main {
     margin-top: 24px;
 }
 
-.subscribe-title .input-text {
+.input-text {
     display: flex;
-    justify-content: center;
-    gap: 24px;
-
+    align-items: center;
+    gap: 0;
 }
 
 .subscribe-title .input-text input {
-    padding: 20px 40px;
+
     border-radius: 8px 0px 0px 8px;
     background: #FFF;
 
@@ -522,15 +602,19 @@ main {
     padding: 18px 40px;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20px;
-
-
-
+    padding-left: 40px;
+    border-style: none;
+    color: rgba(14, 14, 14, 0.30);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .subscribe-title .Subscribe {
     background-color: #006A50;
-    padding: 17px 40px;
+    padding: 16px 40px;
     border-radius: 0px 8px 8px 0px;
     color: #FFF;
     font-family: "Fira Sans";
@@ -538,8 +622,12 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-right: 20px;
+    padding-right: 40px;
 
+}
+
+.subscribe-title .Subscribe:hover {
+    background-color: brown;
 }
 
 /* start footer part */
