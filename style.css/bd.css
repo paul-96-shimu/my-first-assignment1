@@ -30,6 +30,12 @@
     margin-bottom: 24px;
 }
 
+.header-wrraper {
+    background: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
 .header-wrraper .navber {
     display: flex;
     justify-content: space-around;
@@ -85,28 +91,33 @@
 
 /* start of pillars bangladesh */
 main {
+
     width: 80%;
-    margin: 0 auto;
     text-align: center;
     padding: 30px;
     margin-top: 30px;
+    background: #F5F5F5;
+    margin: 0 auto;
+
+    padding: 20px;
+    margin-top: 30px;
+
 }
 
-.container {
-    text-align: center;
-}
 
 .container .box-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 32px;
+    margin: 0 auto;
+
 }
 
 .container .Innovation {
-    text-align: justify;
+
     display: flex;
-    width: 302px;
-    height: 200px;
+    width: 254px;
+    /* height: 196px; */
     padding: 24px;
     flex-direction: column;
     align-items: flex-start;
@@ -137,4 +148,136 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* start vision of future */
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.card-section h1 {
+    color: #0E0E0E;
+
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.card-section p {
+    color: rgba(14, 14, 14, 0.70);
+
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-box1 {
+    text-align: justify;
+    width: 307px;
+    height: 221px;
+    border-radius: 16px;
+    padding: 20px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.card-box2 {
+    text-align: justify;
+    width: 307px;
+    height: 221px;
+    border-radius: 16px;
+    padding: 20px;
+    border: 0px solid #09A15C;
+
+
+    background: #C6E4D6;
+}
+
+.card-box3 {
+    text-align: justify;
+    width: 307px;
+    height: 221px;
+    border-radius: 16px;
+    padding: 20px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.section-title {
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.description {
+    color: rgba(14, 14, 14, 0.70);
+
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.learn-more1 {
+    border-radius: 8px;
+    background: #5490F5;
+    color: #FFF;
+    padding: 11px 20px;
+    border-style: none;
+    margin-top: 15px;
+}
+
+.learn-more2 {
+    border-radius: 8px;
+    background: #09A15C;
+    color: #FFF;
+    padding: 11px 20px;
+    border-style: none;
+    margin-top: 15px;
+}
+
+.learn-more3 {
+    border-radius: 8px;
+    background: #FFC239;
+    color: #FFF;
+    padding: 11px 20px;
+    border-style: none;
+    margin-top: 15px;
+}
+
+.bangladesh-bd {
+    display: flex;
+    padding: 48px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    background-image: url("../assets/quote-bg.png");
+
+    background-repeat: no-repeat;
+    margin-top: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+    background: #FFF;
 }
