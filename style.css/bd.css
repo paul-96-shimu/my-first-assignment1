@@ -151,14 +151,14 @@ main {
 }
 
 /* start vision of future */
-.card-container {
+.vision-of-future .card-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
 
 }
 
-.card-section h1 {
+.vision-of-future .card-section h1 {
     color: #0E0E0E;
 
     font-family: "Fira Sans";
@@ -172,7 +172,7 @@ main {
 
 }
 
-.card-section p {
+.vision-of-future .card-section p {
     color: rgba(14, 14, 14, 0.70);
 
     font-family: "Fira Sans";
@@ -185,7 +185,7 @@ main {
     align-items: flex-start;
 }
 
-.card-box1 {
+.vision-of-future .card-box1 {
     text-align: justify;
     width: 307px;
     height: 221px;
@@ -195,7 +195,7 @@ main {
     background: rgba(84, 144, 245, 0.20);
 }
 
-.card-box2 {
+.vision-of-future .card-box2 {
     text-align: justify;
     width: 307px;
     height: 221px;
@@ -207,7 +207,7 @@ main {
     background: #C6E4D6;
 }
 
-.card-box3 {
+.vision-of-future .card-box3 {
     text-align: justify;
     width: 307px;
     height: 221px;
@@ -217,7 +217,7 @@ main {
     background: #F7EBCF;
 }
 
-.section-title {
+.vision-of-future .section-title {
     color: rgba(14, 14, 14, 0.80);
 
     font-family: "Fira Sans";
@@ -228,7 +228,7 @@ main {
     margin-top: 20px;
 }
 
-.description {
+.vision-of-future .description {
     color: rgba(14, 14, 14, 0.70);
 
     font-family: "Fira Sans";
@@ -280,4 +280,127 @@ main {
     border: 1px solid rgba(14, 14, 14, 0.15);
 
     background: #FFF;
+}
+
+/* recent news part */
+.bangladesh-launches .box1 {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 4px 4px 8px gray;
+    text-align: justify;
+
+}
+
+.bangladesh-launches .box2 {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 4px 4px 8px gray;
+    text-align: justify;
+
+}
+
+/* donate section start */
+.donate-money {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.donate-today h1 {
+    color: #0E0E0E;
+
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 80px;
+}
+
+.donate-today p {
+    color: rgba(14, 14, 14, 0.70);
+
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.donate-money h1 {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.80);
+
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px;
+}
+
+.money {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+    background: #C6E4D6;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px;
+}
+
+.donate input[type="text"] {
+    /* display: flex; */
+    width: 1032px;
+    padding: 20px 40px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    gap: 24px;
+    /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+
+    background: #FFF;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.Done-Now {
+    margin-top: 32px;
+    color: #FFF;
+
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+
+    background: #006A50;
+    padding: 17px 34px;
 }
