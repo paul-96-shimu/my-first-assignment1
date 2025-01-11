@@ -13,6 +13,24 @@
     padding: 0;
 }
 
+.btn-primary {
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #006A50;
+    border-style: none;
+    margin-top: 24px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #FFC239;
+}
+
 /* satar header section */
 .signin {
     color: #006A50;
@@ -71,23 +89,7 @@
     line-height: normal;
 }
 
-.btn-primary {
-    display: flex;
-    padding: 17px 34px;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-    border-radius: 8px;
-    background: #006A50;
-    border-style: none;
-    margin-top: 24px;
-    color: #FFF;
-    font-size: 18px;
-}
 
-.btn-primary:hover {
-    background-color: #FFC239;
-}
 
 /* start of pillars bangladesh */
 main {
@@ -487,21 +489,16 @@ main {
 
 
 .donate input[type="text"] {
-    color: rgba(14, 14, 14, 0.30);
-
     font-family: "Fira Sans";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     width: 1032px;
     padding: 20px 40px;
-
     justify-content: center;
     gap: 24px;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-
+    border-style: none;
     background: #FFF;
     margin-top: 32px;
     text-align: center;
@@ -511,7 +508,6 @@ main {
     align-items: center;
     flex-direction: column;
     display: flex;
-
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
@@ -622,7 +618,7 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-right: 40px;
+    border-style: none;
 
 }
 
